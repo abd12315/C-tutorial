@@ -34,6 +34,10 @@ int main()
     char ab=100; //Now another thing to keep in mind this character type variable has it's own set of range 
     // approximately (-128to+127) you can use either %d or %c represent character
     printf("\n%d\n",ab); //let's see if this one works LOL
+    // now let's print this number as a character that'll give us entirely different ouptut from the orignial inteneded output
+    // it'll gave output like this if used %c 
+    printf("%c\n",ab); //see for yourself
+    printf("the above text is ASCII equivilant if a number is represented as an character");
     return 0; 
 
 }
