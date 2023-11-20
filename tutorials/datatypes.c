@@ -54,10 +54,11 @@ int main()
     // so I got the warning message before intializing the commit and it's discomforting to say the least
     // ok here comes the big guy
     long long int deaf=2982974892734729; // 8 bytes in the memory ranges from (-9 quintillion to +9 quintillion) represented by %lld
-    unsigned long long  int deas=290343290482390; // 8 bytes in the memory ranges from (0 to +18 quintillion) represented by %llu
+    unsigned long long  int deas=2903432904823903984U; // 8 bytes in the memory ranges from (0 to +18 quintillion) represented by %llu
     printf("\n%lld",deaf);
     printf("\n%llu",deas); // I'm genuinly astounded by the response no shit sherlock lol
     // ok now it's fix lol I was using wrong representator or type string lol
+    // if the number is incredibly long more than +18 quintillion you can use U at the end to prevent the warning since it take 8 bytes in the memory which is incredibly long
     return 0; 
 
 }
