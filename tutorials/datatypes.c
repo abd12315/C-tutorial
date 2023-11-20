@@ -49,6 +49,15 @@ int main()
     printf("\n%d",bd); //let's see what kind of magic we can expect lol
     unsigned short int be=65355; //if it's unsigned short int the range is (0 to +65,535) represented by %d
     printf("\n%d",be); // like typical unsigned it doubles the range of a given variable
+    unsigned int bf=43898; //store numbers ranging from (0 to 4 billion)
+    printf("\n%d",bf); //see easy peasy lemon sequezy
+    // so I got the warning message before intializing the commit and it's discomforting to say the least
+    // ok here comes the big guy
+    long long int deaf=2982974892734729; // 8 bytes in the memory ranges from (-9 quintillion to +9 quintillion) represented by %lld
+    unsigned long long  int deas=290343290482390; // 8 bytes in the memory ranges from (0 to 10 quintillion) represented by %llu
+    printf("\n%lld",deaf);
+    printf("\n%llu",deas); // I'm genuinly astounded by the response no shit sherlock lol
+    // ok now it's fix lol I was using wrong representator or type string lol
     return 0; 
 
 }
