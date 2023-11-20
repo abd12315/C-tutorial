@@ -25,6 +25,7 @@ int main()
     // now let's talk about booleans and the way we are actually going to use them
     bool g = true; // 1 for true or 0 false it uses 1 byte of memory and can be represented by %d
     printf("%d This is a Boolean Statement\n",g);
+    printf("1 corresponds to true while 0 corresponds to False");
     printf("the output before modification beta 0.2");
     return 0; 
 
