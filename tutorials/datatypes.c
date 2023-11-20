@@ -23,7 +23,8 @@ int main()
     // the statement %0.15f will increase precision up to 15 decimal places
     // the statement %0.17lf will put precise and also increase precision up to 17 decimal places
     // now let's talk about booleans and the way we are actually going to use them
-    bool g = true; // 1 for true or 0 false
+    bool g = true; // 1 for true or 0 false it uses 1 byte of memory and can be represented by %d
+    printf("%d This is a Boolean Statement\n",g);
     printf("the output before modification beta 0.2");
     return 0; 
 
