@@ -29,6 +29,11 @@ int main()
     printf("%d A false Statement Of course\n",h);
     printf("1 corresponds to true while 0 corresponds to False");
     printf("the output before modification beta 0.2");
+    // please note we can use integer in the character type variable and I repeat we can use integer for our benefit like 
+    // well how's this possible it's simple create or declare a character type variable 
+    char ab=100; //Now another thing to keep in mind this character type variable has it's own set of range 
+    // approximately (-128to+127) you can use either %d or %c represent character
+    printf("\n%d\n",ab); //let's see if this one works LOL
     return 0; 
 
 }
