@@ -38,6 +38,17 @@ int main()
     // it'll gave output like this if used %c 
     printf("%c\n",ab); //see for yourself
     printf("the above text is ASCII equivilant if a number is represented as an character");
+    unsigned char bb =44; // to display an unsigned character we will use 1 byte of memory 0 to 255 only we will use %d or %c only remember that 
+    printf("\n%c",bb);
+    //watch what happens if I increase the range
+    unsigned char bc=255; //in my case it just showed up the ? mark how odd
+    printf("\n%c",bc); //so here's the thing unsigned char actually doubles the ASCII expected range from 127 to 256 or 255 to be specific
+    // let's talk about short int what does it do it stores 
+    // data ranges from (-32,678 to +32767) represented by %d
+    short int bd=32767; //I'm choosing the maximum range lol
+    printf("\n%d",bd); //let's see what kind of magic we can expect lol
+    unsigned short int be=65355; //if it's unsigned short int the range is (0 to +65,535) represented by %d
+    printf("\n%d",be); // like typical unsigned it doubles the range of a given variable
     return 0; 
 
 }
