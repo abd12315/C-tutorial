@@ -10,9 +10,6 @@ if (argc!=3){
     printf("Usage: %s <num1> <num2>\n",argv[0]);
     return 1;
 }
-{
-    /* code */
-}
 
 int num1=atoi(argv[1]); //atoi() is a function that can be used to convert String into integer
 int num2=atoi(argv[2]); // you'll seen the result soon enough
